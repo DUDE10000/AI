@@ -1,9 +1,38 @@
 #Please do not take credit for my code
+
 print("Hello my name is Francis. ")
 name = input("What is your name? " )
 print("Nice to meet you",name)
 day = input("How was your day today? ")
-if "good" or "Good" or "Ok" "ok" or "Nice" or "nice" in day:
-    whygood = input ("What made your day this way? ")
+if "good" in day:
+    whyday1 = input("What made your day good? ")
+    print("Im happy",whyday1,"helped you have a good day")
+
+
+elif "Good" in day:
+    whyday1 = input("What made your day good? ")
+    print("Im happy",whyday1,"helped you have a good day")
+
+
+elif "Ok" in day:
+    whyday3 = input("What made your day ok? ")
+    print("Im happy",whyday3,"helped you have a ok day")
+
+
+elif "ok" in day:
+     whyday3 = input("What made your day ok? ")
+     print("Im happy",whyday3,"helped you have a ok day")
+
+
+elif "nice" in day:
+     whyday4 = input("What made your day nice? ")
+     print("Im happy",whyday4,"helped you have a nice day")
+
+elif "Nice" in day:
+    whyday4 = input("What made your day nice? ")
+    print("Im happy",whyday4,"helped you have a nice day")
+
+
 else:
-    print("What made your day bad?")
+   whyday2 = input("What made your day bad? ")
+   print("Im sorry",whyday2,"made you have a bad day")
