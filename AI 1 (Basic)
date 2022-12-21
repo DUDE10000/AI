@@ -1,0 +1,9 @@
+#Please do not take credit for my code
+print("Hello my name is Francis. ")
+name = input("What is your name? " )
+print("Nice to meet you",name)
+day = input("How was your day today? ")
+if "good" or "Good" or "Ok" "ok" or "Nice" or "nice" in day:
+    whygood = input ("What made your day this way? ")
+else:
+    print("What made your day bad?")
